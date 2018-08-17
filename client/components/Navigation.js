@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom'
 const Navigation = ({ children }) => (
   <div>
     <nav>
-      <Link to='/'> Show All </Link>|
-      <Link to='/newresevation'> New Hotel Reservation </Link>|
+        <Link to='/'> Reverse String (Part1) </Link>|
+        <Link to='/PostGetRequest'> Post/Get Request (Part2) </Link>
     </nav>
     { children }
   </div>

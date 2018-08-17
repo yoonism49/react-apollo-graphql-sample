@@ -1,5 +1,5 @@
 {
-  "name": "react-graphql-apollog",
+  "name": "react-graphql-apollo",
   "version": "1.0.0",
   "description": "Boilerplate for ReactJS project with hot code reloading",
   "scripts": {
@@ -37,6 +37,7 @@
     "apollo-cache-inmemory": "^1.2.7",
     "apollo-client": "^2.3.8",
     "apollo-link-http": "^1.5.4",
+    "axios": "^0.18.0",
     "babel": "5.x.x",
     "babel-core": "5.x.x",
     "babel-loader": "^5.1.2",
@@ -48,6 +49,8 @@
     "json-loader": "^0.5.7",
     "lokka": "1.x.x",
     "lokka-transport-http": "1.x.x",
+    "next": "^5.0.0",
+    "next-apollo": "^2.0.0",
     "react": "15.3.1",
     "react-apollo": "^2.1.11",
     "react-dom": "15.3.1",
@@ -56,8 +59,6 @@
     "underscore": "1.8.x",
     "uuid": "^3.3.2",
     "webpack": "^1.9.6",
-    "webpack-dev-server": "^1.8.2",
-    "next": "^5.0.0",
-    "next-apollo": "^2.0.0"
+    "webpack-dev-server": "^1.8.2"
   }
 }

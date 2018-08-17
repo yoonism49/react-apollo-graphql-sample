@@ -6,9 +6,8 @@ import { ApolloClient } from 'apollo-client'
 import { createHttpLink } from 'apollo-link-http'
 import { InMemoryCache } from 'apollo-cache-inmemory'
 import { Route, Switch, BrowserRouter } from 'react-router-dom';
-import AllReservation from './components/AllReservation';
-import NewReservation from './components/NewReservation';
-import SingleReservations from './components/SingleReservations';
+import ReverseString from './components/ReverseString';
+import PostGetRequest from './components/PostGetRequest';
 import Navigation from './components/Navigation';
 
 const httpLink = createHttpLink({
@@ -26,9 +25,8 @@ ReactDOM.render(
    <BrowserRouter>
         <Navigation>
           <Switch>
-            <Route exact path='/' component={ AllReservation } />
-            <Route exact path='/newresevation' component={ NewReservation } />
-            <Route exact path='/single/:reservationId' component={ SingleReservations } />
+            <Route exact path='/' component={ ReverseString } />
+            <Route exact path='/PostGetRequest' component={ PostGetRequest } />
           </Switch>
         </Navigation>
     </BrowserRouter>

@@ -1,7 +1,7 @@
-## React Client and GraphQL Server
+## SAMPLE React Client and GraphQL Server 
 
-A simple React client with Apollo Client
-(This app **does not** use Relay)
+A simple React client using react-apollo. GraphQL returns reverse string in part 1, and the response of the URL request made from the parameter.
+
 
 
 ## Setting Up
@@ -9,6 +9,7 @@ A simple React client with Apollo Client
 * Clone this repo
 * Run `npm install`
 * Start the app with `npm run dev`
+* Open http://localhost:3002/
 
 ## Source Code
 
